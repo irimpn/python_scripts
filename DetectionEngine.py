@@ -39,6 +39,7 @@ trendAlgo = TrendDetectionAlgorithm()
 
 startTime=  time.localtime()
 
+
 fileReader = FileReader()
 
 readDetectConfigFile = open('C:\Work\data\config\detection-config.txt', 'r')
@@ -68,7 +69,6 @@ for hierConfLine in readhierarchyConfFile:
 # For now this is done using a number sequence logic used in the Data Generation.
 # -------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
-
 def prepareSectCarrierList():
     hierarchy = userInputData["hierarchy"]
     startStr = ""

@@ -8,5 +8,3 @@ import kafka
 import numpy
 
 
-
-
